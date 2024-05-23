@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'HousePrediction.apps.HousepredictionConfig'
+    'HousePrediction.apps.HousepredictionConfig',
+    'Accounts.apps.AccountsConfig'
 ]
 
 MIDDLEWARE = [
