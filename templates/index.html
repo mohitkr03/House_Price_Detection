@@ -116,23 +116,23 @@
         {% endfor %}
     </select>
 
-    <label for="facing">Facing:</label>
+    <label for="facing">Facing North(1) South(2) East(3) West(4):</label>
     <select id="facing" name="facing">
-        <option value="" disabled selected>Select Facing Of House N(1) S(2) E(3) W(4)</option>
+        <option value="" disabled selected>Select Facing Of House </option>
         {% for facing in facing %}
             <option value="{{ facing }}">{{ facing }}</option>
         {% endfor %}
     </select>
 
-    <label for="club_house">Club House:</label>
+    <label for="club_house">Club House Yes(1) No(0) :</label>
     <select id="club_house" name="club_house">
-        <option value="" disabled selected>Select Wanted Club House Yes(1) No(0) </option>
+        <option value="" disabled selected>Select Wanted Club House </option>
         {% for club_house in club_house %}
             <option value="{{ club_house }}">{{ club_house }}</option>
         {% endfor %}
     </select>
 
-    <label for="play_area">Play Area:</label>
+    <label for="play_area">Play Area Yes(1) No(0) :</label>
     <select id="play_area" name="play_area">
         <option value="" disabled selected>Select Wanted Play Area Yes(1) No(0)</option>
         {% for play_area in play_area %}
@@ -140,15 +140,15 @@
         {% endfor %}
     </select>
 
-    <label for="water_supply">Water Supply:</label>
+    <label for="water_supply">Water Supply Yes(1) No(0) :</label>
     <select id="water_supply" name="water_supply">
-        <option value="" disabled selected>Select needed Water Supply? Yes(1) No(0)</option>
+        <option value="" disabled selected>Select needed Water Supply?</option>
         {% for water_supply in water_supply %}
             <option value="{{ water_supply }}">{{ water_supply }}</option>
         {% endfor %}
     </select>
 
-    <label for="lift">Lift:</label>
+    <label for="lift">Lift Yes(1) No(0) :</label>
     <select id="lift" name="lift">
         <option value="" disabled selected>Select Want Lift </option>
         {% for lift in lift %}
@@ -156,15 +156,15 @@
         {% endfor %}
     </select>
 
-    <label for="parking">Parking:</label>
+    <label for="parking">Parking Yes(1) No(0) :</label>
     <select id="parking" name="parking">
-        <option value="" disabled selected>Select needed  Paking? Yes(1) No(0)</option>
+        <option value="" disabled selected>Select needed  Paking?</option>
         {% for parking in parking %}
             <option value="{{ parking }}">{{ parking }}</option>
         {% endfor %}
     </select>
 
-    <label for="furnished">Furnished:</label>
+    <label for="furnished">Furnished Yes(1) No(0) :</label>
     <select id="furnished" name="furnished">
         <option value="" disabled selected>Select Needed Furnished House</option>
         {% for furnished in furnished %}
