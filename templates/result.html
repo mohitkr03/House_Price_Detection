@@ -1,4 +1,18 @@
 {% extends "base.html" %}
-{% block content %}
-<h1>Predicted Price: {{ predicted_price }}</h1>
+
+{% block content %}.
+<style>
+    .result-container {
+        margin: 40px auto; /* add some margin to create space around the container */
+        padding: 20px; /* add some padding to create space between the container and the text */
+        background-color: #f7f7f7; /* add a light gray background color */
+        border: 1px solid #ddd; /* add a light gray border */
+        border-radius: 10px; /* add a rounded corner effect */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow effect */
+      }
+</style>
+
+  <div class="result-container" style="background-color: #f2f2f2; padding: 20px; border-radius: 10px;">
+    <h1>Predicted Price: <span>{{ predicted_price }}</span></h1>
+  </div>
 {% endblock content %}
